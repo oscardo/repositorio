@@ -1,0 +1,1 @@
+este es el repositorio remoto que deseamos consultar desde mi remoto (origin) a mi maquina local (main)
