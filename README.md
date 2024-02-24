@@ -3,16 +3,16 @@
 ## repositorio <
 				  ### Remoto
 ## git config user.name				
-*** git config --global user.name "Jane Doe" ***
+** git config --global user.name "Jane Doe" **
 
 
 ## 122334+nomre@users.noreply.github.com
 git config --global user.email "oscardo@miEmpresa.com"
-*** git config user.email ***
+** git config user.email **
 
 # crear reporitorio: git init 
 
-*** tres áreas en GIT ***
+** tres áreas en GIT **
 	>Directorio de trabajo (ruta en windows) working Directory
 	>	Área de preparación --              staging area (add)
 	>		Commit 
