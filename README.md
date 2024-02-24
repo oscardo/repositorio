@@ -2,7 +2,7 @@
 				  ### Local
 ## repositorio <
 				  ### Remoto
-## git config user.name				
+## git config user.name
 ** git config --global user.name "Jane Doe" **
 
 
@@ -10,13 +10,13 @@
 git config --global user.email "oscardo@miEmpresa.com"
 ** git config user.email **
 
-# crear reporitorio: git init 
+# crear reporitorio: git init
 
 ### tres áreas en GIT ###
-	>Directorio de trabajo (ruta en windows) working Directory
-	>	Área de preparación --              staging area (add)
-	>		Commit 
-	>			reporitorio --              Repository (.git)
+>Directorio de trabajo (ruta en windows) working Directory
+>	Área de preparación --              staging area (add)
+>		Commit
+>			reporitorio --              Repository (.git)
 
 ### Estado ###
 >git status
@@ -40,28 +40,28 @@ git config --global user.email "oscardo@miEmpresa.com"
 	git log --oneline (solo muestra los datos en una sola linea)
 	git log -p
 ## Funcionar ramas ##
-	merge --- fusionar la versión
-	PROCESO QUE PERMITE COMBINAR VARIAS LÍNEAS INDEPENDIENTES DE DESARROLLO EN UNA SOLA RAMA
-	para FUSIONAR DOS RAMAS, DEBES DEBES ESTAR EN LA RAMA QUE RECIBIRÁ la FUSIÓN
-	(main) git merge <rama que se desea fusionar> 
-	<rama raiz donde se desea fusionar> git merge <rama a fusionar>
-	
+>	merge --- fusionar la versión
+>	PROCESO QUE PERMITE COMBINAR VARIAS LÍNEAS INDEPENDIENTES DE DESARROLLO EN UNA SOLA RAMA
+>	para FUSIONAR DOS RAMAS, DEBES DEBES ESTAR EN LA RAMA QUE RECIBIRÁ la FUSIÓN
+>	(main) git merge <rama que se desea fusionar>
+>	<rama raiz donde se desea fusionar> git merge <rama a fusionar>
+
 # GITHUB #
-git remote 
-	--origin (el nombre que se le asigno al servidor de git)
-git remote -v
-origin  https://github.com/oscardo/repositorio.git (fetch) --> obtener la información del repositorio remoto a mi local
-origin  https://github.com/oscardo/repositorio.git (push)  --> dejar la información que hemos hecho de nuestro local al repositorio remoto
+>git remote 
+>	--origin (el nombre que se le asigno al servidor de git)
+>git remote -v
+>origin  https://github.com/oscardo/repositorio.git (fetch) --> obtener la información del repositorio remoto >a mi local
+>origin  https://github.com/oscardo/repositorio.git (push)  --> dejar la información que hemos hecho de >nuestro local al repositorio remoto
 
 ## Git Push ##
-Comando usado para enviar los cambios realizados en un repositorio local a un repositorio remoto 
-para que ambos tengan la misma información
-	git push origin 
-	
+>Comando usado para enviar los cambios realizados en un repositorio local a un repositorio remoto 
+>para que ambos tengan la misma información
+>	git push origin 
+
 ## Git Pull ##
-Comando usaod para descargar el contenido de un repositorio remoto e inmediamente actualiza un reporitorio local 
-para que ambos tengan la misma información
-	git pull origin main (origin  remoto ... main local)
+>Comando usaod para descargar el contenido de un repositorio remoto e inmediamente actualiza un reporitorio >local 
+>para que ambos tengan la misma información
+>	git pull origin main (origin  remoto ... main local)
 ## Git fetch ##
 Comando usado para verificar los cambios realizados en los repositorios remotos SIN combinar esos cambios con el 
 repositorio local.
