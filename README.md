@@ -12,13 +12,13 @@ git config --global user.email "oscardo@miEmpresa.com"
 
 # crear reporitorio: git init 
 
-** tres áreas en GIT **
+### tres áreas en GIT ###
 	>Directorio de trabajo (ruta en windows) working Directory
 	>	Área de preparación --              staging area (add)
 	>		Commit 
 	>			reporitorio --              Repository (.git)
 
-*** Estado ***
+### Estado ###
 >git status
 >	git add <archivo o carpeta>
 >		git commit -m "cualquier ruta o archivo"
@@ -26,7 +26,7 @@ git config --global user.email "oscardo@miEmpresa.com"
 >		git commit --amend #reporitorio Local
 >		git reset --soft head~1 (para volver atrás en el tiempo del commit, volvemos el archivo a staging area >       o preparación)
 		
-*** Ramas en git ***
+### Ramas en git ###
 	LINEAS INDEPENDIENTE DE DESARROLLO
 		branch --- ramas
 	git branch version-javascript (creamos la rama)
