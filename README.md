@@ -59,14 +59,14 @@ git config --global user.email "oscardo@miEmpresa.com"
 >	git push origin 
 
 ## Git Pull ##
->Comando usaod para descargar el contenido de un repositorio remoto e inmediamente actualiza un reporitorio >local 
->para que ambos tengan la misma información
->	git pull origin main (origin  remoto ... main local)
+    Comando usaod para descargar el contenido de un repositorio remoto e inmediamente actualiza un reporitorio local 
+    para que ambos tengan la misma información
+	    git pull origin main (origin  remoto ... main local)
 ## Git fetch ##
-Comando usado para verificar los cambios realizados en los repositorios remotos SIN combinar esos cambios con el 
-repositorio local.
-te permite saber SI SE HAN REALIZADO CAMBIOS en el repositorio remoto desde la última vez que actualizarte tu reporitorio local con git pull
-	git fetch 
+    Comando usado para verificar los cambios realizados en los repositorios remotos SIN combinar esos cambios con el 
+    repositorio local.
+    te permite saber SI SE HAN REALIZADO CAMBIOS en el repositorio remoto desde la última vez que actualizarte tu reporitorio local con git pull
+	**git fetch**
 
 ## Adicionar un git remoto ##
 git remote -v
