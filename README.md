@@ -39,41 +39,41 @@ git config --global user.email "oscardo@miEmpresa.com"
 	git branch -d version-py (Deleted branch version-py (was cba0009).) eliminar esta rama que hemos creado
 	git log --oneline (solo muestra los datos en una sola linea)
 	git log -p
---- Funcionar ramas ---
+## Funcionar ramas ##
 	merge --- fusionar la versión
 	PROCESO QUE PERMITE COMBINAR VARIAS LÍNEAS INDEPENDIENTES DE DESARROLLO EN UNA SOLA RAMA
 	para FUSIONAR DOS RAMAS, DEBES DEBES ESTAR EN LA RAMA QUE RECIBIRÁ la FUSIÓN
 	(main) git merge <rama que se desea fusionar> 
 	<rama raiz donde se desea fusionar> git merge <rama a fusionar>
 	
---- GITHUB ---
+# GITHUB #
 git remote 
 	--origin (el nombre que se le asigno al servidor de git)
 git remote -v
 origin  https://github.com/oscardo/repositorio.git (fetch) --> obtener la información del repositorio remoto a mi local
 origin  https://github.com/oscardo/repositorio.git (push)  --> dejar la información que hemos hecho de nuestro local al repositorio remoto
 
---- Git Push ---
+## Git Push ##
 Comando usado para enviar los cambios realizados en un repositorio local a un repositorio remoto 
 para que ambos tengan la misma información
 	git push origin 
 	
---- Git Pull ---
+## Git Pull ##
 Comando usaod para descargar el contenido de un repositorio remoto e inmediamente actualiza un reporitorio local 
 para que ambos tengan la misma información
 	git pull origin main (origin  remoto ... main local)
---- Git fetch ---
+## Git fetch ##
 Comando usado para verificar los cambios realizados en los repositorios remotos SIN combinar esos cambios con el 
 repositorio local.
 te permite saber SI SE HAN REALIZADO CAMBIOS en el repositorio remoto desde la última vez que actualizarte tu reporitorio local con git pull
 	git fetch 
 
---- Adicionar un git remoto ---
+## Adicionar un git remoto ##
 git remote -v
 (ninguno)
 git remote add origin "www.remotesite.com/algo.git"
 
---- fork (bifurcar un repositorio)
+## fork (bifurcar un repositorio) ##
 git fork 
 
 Un fork es una copia de un repositorio de Git en tu cuenta. Te permite:
@@ -84,7 +84,7 @@ Para probar ideas sin afectar al proyecto original.
 Para aprender de la experiencia de otros desarrolladores.
 ¡Crea tu propio fork y empieza a explorar!
 
---- Pull Request ---
+## Pull Request ##
 Solicitud de combinar tus cambios con el reporitorio original del proyecto
 git pull request --- 
 Git Pull Request:
