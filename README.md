@@ -7,26 +7,26 @@
 
 
 ## 122334+nomre@users.noreply.github.com
-git config --global user.email "ortizoscp@globalhitss.com"
+git config --global user.email "oscardo@miEmpresa.com"
 *** git config user.email ***
 
 # crear reporitorio: git init 
 
-tres áreas en GIT
-	Directorio de trabajo (ruta en windows) working Directory
-		Área de preparación --              staging area (add)
-			Commit 
-				reporitorio --              Repository (.git)
+*** tres áreas en GIT ***
+	>Directorio de trabajo (ruta en windows) working Directory
+	>	Área de preparación --              staging area (add)
+	>		Commit 
+	>			reporitorio --              Repository (.git)
 
---- Estado ---
-git status
-	git add <archivo o carpeta>
-		git commit -m "cualquier ruta o archivo"
-			git log 
-		git commit --amend #reporitorio Local
-		git reset --soft head~1 (para volver atrás en el tiempo del commit, volvemos el archivo a staging area o preparación)
+*** Estado ***
+>git status
+>	git add <archivo o carpeta>
+>		git commit -m "cualquier ruta o archivo"
+>			git log 
+>		git commit --amend #reporitorio Local
+>		git reset --soft head~1 (para volver atrás en el tiempo del commit, volvemos el archivo a staging area >       o preparación)
 		
---- Ramas en git ---
+*** Ramas en git ***
 	LINEAS INDEPENDIENTE DE DESARROLLO
 		branch --- ramas
 	git branch version-javascript (creamos la rama)
